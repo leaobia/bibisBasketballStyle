@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-color:  #76045D;
+    display: grid;
+    grid-template-areas: "header"
+    "main"
+    "footer";
+    grid-template-rows: 100px 1fr 100px;
+    
+
+}
+header{
+    background-color: #FDC939;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.menuh1{
+    display: flex;
+    gap: 30px;
+    margin-left: 3vw;
+ 
+}
+
+.menu{
+    width: 30px;
+    height: 30px;
+    font-size: 1.8rem;
+    color: black;
+
+}
+
+.nomeLoja{
+    font-style: normal;
+    font-weight: 400;
+    width: 371px;
+    height: 45px;
+    line-height: 39px;
+}
+
+.moneycall{
+    display: flex;
+    gap: 45px;
+    margin-right: 4vw;
+}
+
+
+.money{
+    width: 50px;
+    height: 40px;
+    font-size: 2.3rem;
+}
+.description-money{
+    font-style: normal;
+    font-weight: 400;
+    height: 39px;
+    font-size: 1.5rem;
+    line-height: 39px;
+}
+.call{
+    font-size: 2.3rem;
+}
+.description-call{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    height: 39px;
+    font-size: 1.5rem;
+}
+main{
+    background-color: #975C9A;
+    grid-area: main;
+   
+}
+footer{
+    background-color: #975C9A;
+    grid-area: footer;
+}
