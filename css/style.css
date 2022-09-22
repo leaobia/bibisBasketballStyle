@@ -152,3 +152,122 @@ main{
     width: 22vw;
     height: 38vh;
 }
+
+@media (max-width:480px) {
+    header{
+        background-color: #FDC939;
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+        place-items: center;
+        height: 40px;
+    }
+    
+    .menuh1{
+        display: flex;
+        gap: 10px;
+        margin-left: 3vw;
+     
+    }
+    
+    .menu{
+        width: 30px;
+        height: 30px;
+        font-size: 1.8 rem;
+        color: black;
+    
+    }
+    
+    .nomeLoja{
+        font-style: normal;
+        font-weight: 400;
+        width: 280px;
+        height: 45px;
+        line-height: 39px;
+    }
+    
+    .moneycall{
+        display: flex;
+        margin-right: 15vw;
+    }
+    
+    
+    .money{
+        width: 10px;
+        height: 40px;
+        font-size: 2.0rem;
+    }
+    .description-money, .description-call{
+       display: none;
+    }
+    .call{
+        font-size: 2.0rem;
+    }
+
+    /*main*/
+
+    .text{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        height: 40vh;
+        padding-top: 1vh;
+       
+        
+     }
+     
+     
+     .titulo{
+         color: #FDC939;
+         font-size: 2.2rem;
+         width: 100vw;
+         font-weight: 400;
+         margin-left: 13%;
+         
+         
+     }
+     .marketing{
+        justify-content: flex-start;
+       padding-top: 5vh;
+       gap: 2vh;
+       
+    }
+     
+     .presentation{
+         font-size: 1rem;
+         width: 100vw;
+         margin-left: 19%;
+         
+        
+     }
+     .time{
+         font-size: 1rem;
+         
+         
+         
+     }
+     .btn{
+         width: 50vw;
+       
+     
+     }
+     .pictures{
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+        padding-top: 5vh;
+    }
+    
+    .image1, .image3{
+        width: 38vw;
+        height: 38vh;
+        padding-left: 5%;
+    }
+    .image2{
+        margin-left: 50%;
+        width: 38vw;
+        height: 38vh;
+    }
+  
+    
+    }
