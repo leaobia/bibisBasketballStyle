@@ -269,5 +269,17 @@ main{
         height: 38vh;
     }
   
-    
+}
+    @media (max-width:400px) {
+        .titulo{
+            font-size: 2.2rem;
+            width: 80vw;
+            font-weight: 400;
+            margin-left: 10%;
+            
+    }
+
+    .presentation{
+        margin-left: 15%;
+}
     }
